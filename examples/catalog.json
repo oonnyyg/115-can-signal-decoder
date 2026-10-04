@@ -1,0 +1,17 @@
+{
+  "frames": [
+    {
+      "id": 256,
+      "name": "Status",
+      "dlc": 8,
+      "signals": [
+        {"name": "temp", "start": 0, "length": 12, "signed": true, "factor": 0.1, "offset": -40, "range": [-40, 100]}
+      ],
+      "mux": {"name": "mode", "start": 22, "length": 2},
+      "branches": [
+        {"value": 0, "signals": [{"name": "torque", "start": 24, "length": 8, "signed": true}]},
+        {"value": 1, "signals": [{"name": "level", "start": 24, "length": 8, "factor": 0.5}]}
+      ]
+    }
+  ]
+}

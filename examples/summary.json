@@ -1,0 +1,17 @@
+{
+  "records": 2,
+  "decoded": 1,
+  "errors": 1,
+  "signals": {
+    "speed": {
+      "count": 1,
+      "out_of_range": 0
+    },
+    "temp": {
+      "count": 1,
+      "out_of_range": 1
+    }
+  },
+  "min": -40.2,
+  "max": 2.56
+}

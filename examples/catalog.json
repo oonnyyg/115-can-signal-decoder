@@ -1,0 +1,1 @@
+{"frames":[{"id":256,"name":"Status","dlc":8,"signals":[{"name":"temp","start":0,"length":12,"signed":true,"factor":0.1,"offset":-40,"min":-40,"max":100}],"mux":{"name":"mode","start":16,"length":2,"branches":{"1":[{"name":"speed","start":24,"length":16,"factor":0.01,"min":0,"max":250}]}}}]}
